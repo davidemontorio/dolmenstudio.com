@@ -13,7 +13,7 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala A
 
-![Image](/assets/images/Sala A.jpeg)
+![Image]({{ site.baseurl }}/assets/images/Sala A.jpeg)
 
 ### Strumentazione
 
@@ -27,7 +27,7 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala B
 
-![Image](/assets/images/Sala B.jpeg)
+![Image]({{ site.baseurl }}/assets/images/Sala B.jpeg)
 
 ### Strumentazione
 
@@ -41,7 +41,7 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala C
 
-![Image](/assets/images/Sala C.jpeg)
+![Image]({{ site.baseurl }}/assets/images/Sala C.jpeg)
 
 ### Strumentazione
 
@@ -57,9 +57,9 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 Sala particolarmente adatta per gruppi numerosi (10/15 persone) e per la preparazione di tour.
 
-![Image](/assets/images/Sala D.jpeg)
+![Image]({{ site.baseurl }}/assets/images/Sala D.jpeg)
 
-![Image](/assets/images/Sala D .jpeg)
+![Image]({{ site.baseurl }}/assets/images/Sala D .jpeg)
 
 ### Strumentazione
 

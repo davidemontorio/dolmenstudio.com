@@ -20,6 +20,9 @@
       {%- endif -%}
       <div class="footer__author-links">
         {%- include author-links.html author=_site_author -%}
+        <center>
+          <a href="mailto:info@dolmenstudio.com" title="Dolmen Studio info">info@dolmenstudio.com</a> - Per prenotazioni <a href="tel:0039022422122" title="Dolmen Studio">02/2422122</a>
+        </center>
       </div>
     </div>
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
@@ -28,9 +31,7 @@
       <div>
         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
         {%- assign _locale_copyright_dates = __return -%}
-        © {{ site.title }} {{ _locale_copyright_dates }},
-        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-        title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+        © {{ site.title }} {{ _locale_copyright_dates }}
       </div>
     </div>
   </div>
