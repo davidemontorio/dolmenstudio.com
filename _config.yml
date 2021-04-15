@@ -19,8 +19,8 @@
 destination: docs
 text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://davidemontorio.github.io/dolmenstudio.com
-#baseurl : dolmenstudio.com
+url     : https://davidemontorio.github.io
+baseurl : /dolmenstudio.com
 title   : Dolmen Studio
 description: > # this means to ignore newlines until "Language & timezone"
   Dolmen Studio, dal 1996 con una passione unica per la Musica. E, in oltre dieci anni di attività, questa passione, insieme alla cura del dettaglio, all’attenzione nella scelta della strumentazione e alla disponibilità nell'assistenza agli artisti, ci ha permesso di creare un vero e proprio laboratorio aperto a tutti i musicisti, dagli appassionati alle prime armi ai professionisti più esigenti.
