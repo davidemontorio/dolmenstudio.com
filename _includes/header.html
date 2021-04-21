@@ -6,21 +6,28 @@
   <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
     <div class="main">
-      <div class="header__title">
-        <div class="header__brand">
-          {%- include svg/logo.svg -%}
-          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-          {%- include snippets/get-nav-url.html path=_paths_root -%}
-          {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+     
+      {%- if site.data.navigation.header -%}
+
+      <input id="burger" type="checkbox" />
+      <label for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="navigation">
+        <div class="header__title">
+          <div class="header__brand">
+            <center>
+              <a title="{{ site.description }}" href="{{ site.url }}{{site.baseurl }}/">
+                <img id="header_logo" src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }}" title="{{ site.title }}" />
+              </a>
+            </center>
+          </div>
+          {%- if site.search.provider -%}
+            <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
           {%- endif -%}
         </div>
-        {%- if site.search.provider -%}
-          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
-      </div>
-      {%- if site.data.navigation.header -%}
-      <nav class="navigation">
         <ul>
           {%- for _item in site.data.navigation.header -%}
             {%- include snippets/get-nav-url.html path=_item.url -%}

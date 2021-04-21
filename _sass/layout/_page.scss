@@ -5,6 +5,10 @@ html,
   height: 100%;
 }
 
+body {
+  padding: $masthead-height + 2 0 0;
+}
+
 .layout--page {
   &.layout--page--sidebar {
     .page__viewport,
@@ -25,7 +29,7 @@ html,
   .col-aside {
     display: none;
     & > aside {
-      position: absolute;
+      position: sticky;
       width: map-get($layout, aside-width);
       @include overflow(hidden);
     }
@@ -83,11 +87,12 @@ html,
   @include transition(transform map-get($animation, duration));
   @include overflow(auto);
   .sidebar-toc {
-    padding: map-get($spacers, 3) map-get($spacers, 3) map-get($spacers, 4) map-get($spacers, 4);
+    padding: map-get($spacers, 3) map-get($spacers, 3) map-get($spacers, 4)
+      map-get($spacers, 4);
   }
 }
 .sidebar-button {
-  @include clickable($text-color-d, rgba($main-color-3, .75));
+  @include clickable($text-color-d, rgba($main-color-3, 0.75));
 }
 
 .page__mask {
@@ -105,13 +110,13 @@ html,
 
 .has-aside {
   .col-aside {
-    position: relative;
+    position: sticky;
     display: block;
     width: map-get($layout, aside-width);
     & > aside {
       &.fixed {
-        position: fixed;
-        -webkit-font-smoothing: subpixel-antialiased;
+        position: sticky;
+        -webkit-colfont-smoothing: subpixel-antialiased;
       }
     }
     @include media-breakpoint-down(lg) {
@@ -123,7 +128,7 @@ html,
 @include media-breakpoint-down(lg) {
   .page__sidebar {
     position: fixed;
-    @include transform(translate(- map-get($layout, sidebar-width), 0));
+    @include transform(translate(-map-get($layout, sidebar-width), 0));
   }
 
   .page__actions {
@@ -156,10 +161,19 @@ html,
 
 .page__main--immersive {
   .page__header {
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .hero__content {
     padding-top: map-get($layout, header-height);
   }
+}
+
+.page__header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  height: $masthead-height;
+  background-color: $background-color;
 }
