@@ -20,8 +20,14 @@
       {%- endif -%}
       <div class="footer__author-links">
         {%- include author-links.html author=_site_author -%}
+        <a title="{{ site.description }}" href="{{ site.url }}{{site.baseurl }}/">
+          <img width="80" src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }}" title="{{ site.title }}" />
+        </a><br />
         <center>
-          <a href="mailto:info@dolmenstudio.com" title="Dolmen Studio info">info@dolmenstudio.com</a> - Per prenotazioni <a href="tel:0039022422122" title="Dolmen Studio">02/2422122</a>
+          
+          © {{ site.title }} {{ _locale_copyright_dates }} P.IVA 05380130962 |
+          <a href="mailto:info@dolmenstudio.com" title="Dolmen Studio info">info@dolmenstudio.com</a>
+          | Per prenotazioni <a href="tel:0039022422122" title="Dolmen Studio">02/2422122</a>
         </center>
       </div>
     </div>
@@ -31,7 +37,6 @@
       <div>
         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
         {%- assign _locale_copyright_dates = __return -%}
-        © {{ site.title }} {{ _locale_copyright_dates }}
       </div>
     </div>
   </div>

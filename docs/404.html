@@ -304,13 +304,19 @@
         <i class="fas fa-envelope"></i>
       </a> --></ul>
 </div>
-<center>
-          <a href="mailto:info@dolmenstudio.com" title="Dolmen Studio info">info@dolmenstudio.com</a> - Per prenotazioni <a href="tel:0039022422122" title="Dolmen Studio">02/2422122</a>
+<a title="Dolmen Studio, dal 1996 con una passione unica per la Musica. E, in oltre dieci anni di attività, questa passione, insieme alla cura del dettaglio, all’attenzione nella scelta della strumentazione e alla disponibilità nell'assistenza agli artisti, ci ha permesso di creare un vero e proprio laboratorio aperto a tutti i musicisti, dagli appassionati alle prime armi ai professionisti più esigenti.
+" href="https://davidemontorio.github.io/dolmenstudio.com/">
+          <img width="80" src="/dolmenstudio.com/assets/images/logo.png" alt="Dolmen Studio" title="Dolmen Studio" />
+        </a><br />
+        <center>
+          
+          © Dolmen Studio  P.IVA 05380130962 |
+          <a href="mailto:info@dolmenstudio.com" title="Dolmen Studio info">info@dolmenstudio.com</a>
+          | Per prenotazioni <a href="tel:0039022422122" title="Dolmen Studio">02/2422122</a>
         </center>
       </div>
     </div><div class="site-info mt-2">
-      <div>© Dolmen Studio 2021
-      </div>
+      <div></div>
     </div>
   </div>
 </footer>
@@ -618,6 +624,7 @@
 })();*/
 </script>
     </div>
+    <button onclick="topFunction()" id="go-to-top" title="Vai in cima"><i class="fas fa-arrow-up" alt="Top"></i></button>
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];
   if (window.hasEvent('touchstart')) {
@@ -625,7 +632,27 @@
     document.addEventListener('touchstart', function(){}, false);
   }
 })();
-</script>
+
+
+  //Get the button
+  var scrollTopButton = document.getElementById("go-to-top");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollTopButton.style.display = "block";
+    } else {
+      scrollTopButton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }</script>
   </body>
 </html>
 
