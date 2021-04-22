@@ -2,15 +2,6 @@
 layout: article
 aside:
   toc: false
-#mode: immersive
-#article_header:
-#  type: overlay
-#  theme: dark
-#   background_color: "#203028"
-#   background_image:
-#     gradient: "linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))"
-#     #src: /docs/assets/images/cover3.jpg
-#     src: /assets/logo.png
 ---
 
 <div class="index_container">
@@ -22,6 +13,22 @@ aside:
       In oltre dieci anni di attività, questa passione, insieme alla cura del dettaglio, all’attenzione nella scelta della strumentazione e alla disponibilità nell'assistenza agli artisti, ci ha permesso di creare un vero e proprio laboratorio aperto a tutti i musicisti, dagli appassionati alle prime armi ai professionisti più esigenti.
     </p>
   </div>
+</div>
+<div>
+    <ul class="index_menu">
+{%- for _item in site.data.navigation.header -%}
+  {%- include snippets/get-nav-url.html path=_item.url -%}
+  {%- assign _nav_url = __return -%}
+  {%- include snippets/get-nav-url.html path=page.url -%}
+  {%- assign _page_url = __return -%}
+  {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+  {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+    <li class=" navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+  {%- else -%}
+    <li class=""><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+  {%- endif -%}
+{%- endfor -%}
+    </ul>
 </div>
 
 <style>
