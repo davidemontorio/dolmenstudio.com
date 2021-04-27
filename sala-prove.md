@@ -86,8 +86,8 @@ I prezzi sono da intendersi per l'affitto di una sala prove per un'ora di tempo.
 
 | Orari       | Sala A | Sala B | Sala C | Sala D |
 | ----------- | ------ | ------ | ------ | ------ |
-| **14-20**   | 10 €   | 10 €   | 10 €   | 17 €   |
-| **20-24**   | 15 €   | 14 €   | 15 €   | 17.5 € |
+| **14-20**   | 10 €   | 10 €   | 10 €   | 18 €   |
+| **20-24**   | 16.5 € | 16.5 € | 16.5 € | 18 €   |
 | **Singoli** | 5 €    | 5 €    | 5 €    | 6 €    |
 
 Il sabato e la domenica vengono applicate le tariffe serali (20-24) per tutte le sale.
