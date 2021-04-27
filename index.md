@@ -5,7 +5,7 @@ aside:
 ---
 
 <div class="index_container">
-  <a href="{{ site.baseurl }}/assets/images/Sala_A.jpeg" title="Sala A"><img class="index_image" src="{{ site.baseurl }}/assets/images/Sala_A.jpeg"></a>
+  <img class="index_image" src="{{ site.baseurl }}/assets/images/Sala_A.jpeg">
   <div class="index_text">
     <h3>Dolmen studio</h3>
     dal 1996 con una passione unica per la Musica.
