@@ -3067,7 +3067,7 @@ input ~ nav > ul > li { opacity: 0; transition: 0.1s; transition-delay: 0s; }
 
 input ~ nav > ul > li > a { text-decoration: none; text-transform: uppercase; color: #5580ad; font-weight: 700; font-family: sans-serif; display: block; padding: 5px; }
 
-input:checked ~ nav { height: 50%; transition-delay: 0s; }
+input:checked ~ nav { height: 70%; transition-delay: 0s; }
 
 input:checked ~ nav > ul { visibility: visible; display: flex; justify-content: center; }
 

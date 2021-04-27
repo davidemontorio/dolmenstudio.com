@@ -112,7 +112,7 @@ input ~ nav {
   }
 }
 input:checked ~ nav {
-  height: 50%;
+  height: 70%;
   transition-delay: 0s;
   > ul {
     visibility: visible;
