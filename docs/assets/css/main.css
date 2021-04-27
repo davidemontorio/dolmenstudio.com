@@ -3037,11 +3037,11 @@ body { padding: 82px 0 0; }
 
 .header__title { margin-left: auto; margin-right: auto; margin-top: 15px; width: 200px; }
 
-@media (max-width: 767px) { .header__title { width: 120px; } }
+@media (max-width: 767px) { .header__title { width: 150px; } }
 
 #header_logo { width: 200px; }
 
-@media (max-width: 767px) { #header_logo { width: 120px; } }
+@media (max-width: 767px) { #header_logo { width: 150px; } }
 
 input + label { position: fixed; top: 40px; right: 40px; height: 20px; width: 15px; z-index: 5; }
 
@@ -3073,7 +3073,7 @@ input:checked ~ nav > ul { visibility: visible; display: flex; justify-content: 
 
 @media (max-width: 767px) { input:checked ~ nav > ul { display: contents; } }
 
-input:checked ~ nav > ul > li { opacity: 1; margin-right: 10px; transition-delay: 0.1s; }
+input:checked ~ nav > ul > li { opacity: 1; margin-right: 10px; margin-left: 10px; transition-delay: 0.1s; }
 
 .index_menu { text-align: center; }
 

@@ -22,14 +22,14 @@
   margin-top: 15px;
   width: 200px;
   @media (max-width: 767px) {
-    width: 120px;
+    width: 150px;
   }
 }
 
 #header_logo {
   width: 200px;
   @media (max-width: 767px) {
-    width: 120px;
+    width: 150px;
   }
 }
 $backColor: #5580ad;
@@ -124,6 +124,7 @@ input:checked ~ nav {
     > li {
       opacity: 1;
       margin-right: 10px;
+      margin-left: 10px;
       transition-delay: 0.1s;
     }
   }
