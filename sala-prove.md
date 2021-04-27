@@ -13,7 +13,9 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala A
 
-![Image]({{ site.baseurl }}/assets/images/Sala A.jpeg)
+<a href="{{ site.baseurl }}/assets/images/Sala_A.jpeg" title="Sala A">
+  <img src="{{ site.baseurl }}/assets/images/Sala_A.jpeg" title="Sala A" />
+</a>
 
 ### Strumentazione
 
@@ -27,7 +29,9 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala B
 
-![Image]({{ site.baseurl }}/assets/images/Sala B.jpeg)
+<a href="{{ site.baseurl }}/assets/images/Sala_B.jpeg" title="Sala B">
+  <img src="{{ site.baseurl }}/assets/images/Sala_B.jpeg" title="Sala B" />
+</a>
 
 ### Strumentazione
 
@@ -41,8 +45,9 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 ## Sala C
 
-![Image]({{ site.baseurl }}/assets/images/Sala C.jpeg)
-
+<a href="{{ site.baseurl }}/assets/images/Sala_C.jpeg" title="Sala C">
+  <img src="{{ site.baseurl }}/assets/images/Sala_C.jpeg" title="Sala C" />
+</a>
 ### Strumentazione
 
 - Mixer: Mackie CFX12, 12 canali, 4 Sub
@@ -57,9 +62,12 @@ Nelle nostre sale usiamo piatti Zildjian (serie K, Avedis, K-Custom), UFIP e Pai
 
 Sala particolarmente adatta per gruppi numerosi (10/15 persone) e per la preparazione di tour.
 
-![Image]({{ site.baseurl }}/assets/images/Sala D.jpeg)
-
-![Image]({{ site.baseurl }}/assets/images/Sala D .jpeg)
+<a href="{{ site.baseurl }}/assets/images/Sala_D.jpeg" title="Sala D">
+  <img src="{{ site.baseurl }}/assets/images/Sala_D.jpeg" title="Sala D" />
+</a>
+<a href="{{ site.baseurl }}/assets/images/Sala_D1.jpeg" title="Sala D">
+  <img src="{{ site.baseurl }}/assets/images/Sala_D1.jpeg" title="Sala D" />
+</a>
 
 ### Strumentazione
 
